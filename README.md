@@ -2,6 +2,8 @@
 
 ## Project setup
 ```
+npm install git
+git clone https://github.com/unnamedman122/cara
 npm install
 ```
 
