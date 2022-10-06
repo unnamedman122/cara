@@ -78,8 +78,7 @@ export default {
     left: 20px;
     
 }
-.logo{
-}
+
 
 </style>
 
