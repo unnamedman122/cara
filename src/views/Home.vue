@@ -20,7 +20,7 @@
         <h2>Features Products</h2>
         <p>Summer collection New Model Design </p>
         <div class="pros-container">
-            <product-card/>
+            <product-card/> 
         </div>
     </section>
 </template>
