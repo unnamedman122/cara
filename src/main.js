@@ -8,9 +8,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
-import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingBasket,faStar,faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faShoppingBasket)
+
+
+library.add(faShoppingBasket,faStar,faShoppingCart)
 
 
 const app = createApp(App)

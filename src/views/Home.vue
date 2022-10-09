@@ -16,10 +16,21 @@
             </div>
         </div>
     </section>
+    <section class="products section-p1">
+        <h2>Features Products</h2>
+        <p>Summer collection New Model Design </p>
+        <div class="pros-container">
+            <product-card/>
+        </div>
+    </section>
 </template>
 
 <script>
+import ProductCard from "../components/ProductCard.vue";
+
 export default {
+    name:"home",
+    components: { ProductCard },
     data() {
         return {
             hero: require("../assets/UI/hero4.png"),
@@ -55,78 +66,6 @@ export default {
 }
 </script> 
 
-<style scoped>
-.hero {
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    z-index: -1;
-}
-
-.hero h4 {
-    padding-bottom: 15px;
-}
-
-.hero h1 {
-    color: #088178;
-}
-
-.hero button {
-    background: none;
-    background-size: cover;
-    width: 227px;
-    height: 49px;
-    border: none;
-    font-size: 18px;
-    font-weight: 700;
-    color: #088178;
-    cursor: pointer;
-}
-.socket_main{
-display: flex;
-justify-content: space-between;
-
-}
-
-.socket{
-    width: 180px;
-    text-align: center;
-    padding: 25px 15px;
-    box-shadow:-4px 4px 8px 0px rgba(1, 1, 2, 0.06);
-    margin: 8px 17px 9px 7px;
-    border: 1px solid #cce7d0;
-    border-radius: 4px;
-    margin: 15px;
-
-}
-
-.socket h6{
-    text-align: center;
-    padding: 5px 6px;
-    line-height: 1;
-    border-radius:4px;
-    color: #088178;
-    background-color: #fddde4;
-    margin:15px 0;
-}
-
-.socket img{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.features
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} 
-
+<style src="../assets/styles/style.css">
 </style>
 
